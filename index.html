@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Horoskop</h1>
+        <label for="monthInput">Geben Sie Ihren Geburtsmonat ein:</label>
+        <select id="monthInput" >
+            <option value="">Wann hast du Geburtstag ?</option>
+            <option value="22. Dezember - 19. Januar">22. Dezember - 19. Januar</option>
+            <option value="20. Januar - 18. Februar">20. Januar - 18. Februar
+            </option>
+            <option value="19. Februar - 20. März">19. Februar - 20. März
+            </option>
+            <option value="21. März - 19. April">21. März - 19. April</option>
+            <option value="20. April - 20. Mai">20. April - 20. Mai</option>
+            <option value="21. Mai - 20. Juni">21. Mai - 20. Juni</option>
+            <option value="21. Juni - 22. Juli">21. Juni - 22. Juli</option>
+            <option value="23. Juli - 22. August">23. Juli - 22. August</option>
+            <option value="23. August - 22. September">23. August - 22. September</option>
+            <option value="23. September - 22. Oktober">23. September - 22. Oktober</option>
+            <option value="23. Oktober - 21. November">23. Oktober - 21. November</option>
+            <option value="22. November - 21. Dezember">22. November - 21. Dezember</option> 
+        </select> 
+        <button id="showHoroscope">Zeige Horoskop</button>
+        <div class="horoscope-container">
+            <div class="horoscope-image">
+                <img id="horoscope-image-content" src="" alt="Horoskop-Bild" style="display: none;">
+            </div>
+            <div class="horoscope-text">
+                <p id="horoscope-text-content"></p>
+            </div>
+        </div>
+        <a href="https://astrowoche.wunderweib.de/tageshoroskop">mehr hier</a>
+    </div>    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
